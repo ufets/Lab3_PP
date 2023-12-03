@@ -1,7 +1,7 @@
 
 CFLAGS = -c -Wall -std=c11 -g -o2 -fopenmp
 
-LDFLAGS = 
+LDFLAGS = -fopenmp
 
 SRCS= main.c functions.c
 
