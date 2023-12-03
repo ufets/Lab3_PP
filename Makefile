@@ -1,5 +1,5 @@
 
-CFLAGS = -c -Wall -std=c11 -g -o2 #-fopenmp
+CFLAGS = -c -Wall -std=c11 -g -o2 -fopenmp
 
 LDFLAGS = 
 
