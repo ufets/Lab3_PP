@@ -7,7 +7,7 @@
 #define RED_COLOR "\x1b[31m"
 #define RESET_COLOR "\x1b[0m"
 
-#define SIZE 1000000
+#define SIZE 100
 #define LIMIT 10000
 
 /// @brief Different codes of errors
@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
     timing(array, array2, SIZE);
 
     free(array);
+    free(array2);
 
     return 0;
 }
